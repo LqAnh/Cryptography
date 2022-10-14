@@ -1,4 +1,4 @@
-> points.py file calculate all points in elliptic curves
+## __points.py file calculate all points in elliptic curves__
 
 + p, a, b need to be defined to run the program
 
@@ -8,7 +8,7 @@
 
 
 
-> add.py file calculate sum of two point in elliptic curves
+## __add.py file calculate sum of two point in elliptic curves__
 
 + P, Q, num, prime, a, b need to be defined to run the program
 
