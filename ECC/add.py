@@ -1,9 +1,17 @@
-P = [,]
+# eg: P = [1, 2]
+#     Q = [3, 4] if you want to add P to itself then Q = P
+#     num : number of time you want to calculate P start from 2
+#         -  eg: calculate 2P => num = 3
+#         -  P + Q => num = 3
+#         -  3P => num = 4
+#         -  4P => num = 5
+#     prime, a, b: y^2 = x^3 + ax + b mod prime
+P = [0, 1023]
 Q = P
-num =
-prime = 
-a = 
-b = 
+num = 3217
+prime = 3121
+a = 13
+b = 994
 
 
 def gcdExtended(a, b):
