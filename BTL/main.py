@@ -5,10 +5,11 @@ import otherfile as of
 list_text_file = []
 list_other_file = []
 
-cipher_key="LãquỐc anh"
-
+file_path = "./disk/"
 encrypt_path="./encrypt/"
 decrypt_path="./decrypt/"
+
+cipher_key="LãquỐc anh"
 
 def checkFileInDir(file_path):
     for filename in os.listdir(file_path):
@@ -22,7 +23,7 @@ def checkFileInDir(file_path):
             list_other_file.append(filename)
 
 def encrypt():
-    file_path = "./disk/"
+    
     checkFileInDir(file_path)
     
     for file in list_text_file:
