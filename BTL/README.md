@@ -18,16 +18,16 @@ you need to fill in these 2 files some paremeters bellow:
 
 `./disk`: location of original file also `file_path` parameter
 
-> **you need to create these bellow folder to run two main program**
+> **`you need to create these bellow folder to run two main program`**
 >
 > ---
 >
 >
 
-`./encrypt`: location of encrypted file by `main.py` also `encrypt_path` location
+`./encrypt`: location of encrypted file by `main.py` also `encrypt_path`parameter
 
-`./decrypt`: location of decrypted file by `main.py` also `decrypt_path` location
+`./decrypt`: location of decrypted file by `main.py` also `decrypt_path` parameter
 
-`./encrypt-text`: location of encrypted file by `main-text.py` also `encrypt_path` location
+`./encrypt-text`: location of encrypted file by `main-text.py` also `encrypt_path` parameter
 
-`./decrypt-text`: location of decrypted file by `main-text.py` also `d		ecrypt_path` location
+`./decrypt-text`: location of decrypted file by `main-text.py` also `d		ecrypt_path` parameter
