@@ -1,0 +1,2 @@
+This should be a very short and working version. And the alphabet can easily be stored in a string that can always be extended (which results in different ciphertexts).
+Dự án mô phỏng toàn bộ quy trình xây dựng một hệ thống BI: có đầy đủ các bước lấy dữ liệu từ nhiều nguồn, ETL, xây dựng mô hình dữ liệu, xây dựng các độ đo / KPI, xây dựng các báo cáo hiển thị.
