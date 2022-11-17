@@ -39,7 +39,7 @@ def _transform(string:str, key:str, mode = "encrypt") -> str:
     return transform_text
 
 
-def encryptv2(file_path,cipher_key,out_path,base):
+def para_encrypt(file_path,cipher_key,out_path,base):
     start = time.time()
 
     with open(file_path,"r") as input_data:
@@ -53,7 +53,7 @@ def encryptv2(file_path,cipher_key,out_path,base):
 
 
 
-def decryptv2(file_path,cipher_key,out_path,base):
+def para_decrypt(file_path,cipher_key,out_path,base):
     start = time.time()
 
     with open(file_path,"r") as input_data:

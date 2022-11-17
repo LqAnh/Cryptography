@@ -21,13 +21,13 @@ def checkFileInDir(file_path):
 def encrypt():
     checkFileInDir(file_path)
     for file in list_text_file:
-        vig.encryptv2(file_path+file,cipher_key,encrypt_path+"en_"+file,False)
+        vig.para_encrypt(file_path+file,cipher_key,encrypt_path+"en_"+file,False)
     list_text_file.clear()
 
 def decrypt():
     checkFileInDir(encrypt_path)
     for file in list_text_file:
-        vig.decryptv2(encrypt_path+file,cipher_key,decrypt_path+"de_"+file,False)
+        vig.para_decrypt(encrypt_path+file,cipher_key,decrypt_path+"de_"+file,False)
     list_text_file.clear()
 
 encrypt()

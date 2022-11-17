@@ -26,7 +26,7 @@ def encrypt():
     checkFileInDir(file_path)
     
     for file in list_text_file:
-        vig.encryptv2(file_path+file,cipher_key,encrypt_path+"en_"+file,base=True)
+        vig.para_encrypt(file_path+file,cipher_key,encrypt_path+"en_"+file,base=True)
     list_text_file.clear()
 
     for file in list_other_file:
@@ -37,7 +37,7 @@ def decrypt():
     checkFileInDir(encrypt_path)
     
     for file in list_text_file:
-        vig.decryptv2(encrypt_path+file,cipher_key,decrypt_path+"de_"+file,base=True)
+        vig.para_decrypt(encrypt_path+file,cipher_key,decrypt_path+"de_"+file,base=True)
     list_text_file.clear()
 
     for file in list_other_file:
